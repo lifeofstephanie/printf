@@ -2,6 +2,11 @@
 #define MAIN_H
 #include <stdarg.h>
 #include <stddef.h>
+#include<stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <limits.h>
+
 
 /**
  * _putchar - Writes a character to the standard output.
