@@ -1,5 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdarg.h>
+#include <stddef.h>
+#include<stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <limits.h>
+
 
 /**
  * _putchar - Writes a character to the standard output.
@@ -11,4 +18,15 @@ int _putchar(char c);
 
 int _printf(const char *format, ...);
 
+int print_char(va_list value);
+
+int print_string(va_list value);
+
+int _strlen(char *str);
+
+int _strlenc(const char *str);
+
+int print_37(void);
+
+int print_bin(va_list value);
 #endif
