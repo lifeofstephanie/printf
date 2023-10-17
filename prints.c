@@ -20,4 +20,11 @@ int print_string(va_list value)
 			_putchar(str[j]);
 		return (length);
 	}
+	else
+	{
+		length = _strlen(str);
+		for (j = 0; j < length; j++)
+			_putchar(str[i]);
+		return(length);
+	}
 }
