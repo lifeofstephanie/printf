@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdarg.h>
+#include <stddef.h>
 
 /**
  * _putchar - Writes a character to the standard output.

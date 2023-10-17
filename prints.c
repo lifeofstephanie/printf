@@ -24,7 +24,7 @@ int print_string(va_list value)
 	{
 		length = _strlen(str);
 		for (j = 0; j < length; j++)
-			_putchar(str[i]);
+			_putchar(str[j]);
 		return(length);
 	}
 }

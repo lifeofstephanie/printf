@@ -6,7 +6,7 @@
  * Return: return 1
  */
 
-print_char(va_list value)
+int print_char(va_list value)
 {
 	char string;
 
